@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# MySQL connection parameters
+MYSQL = {
+        'username': 'name',
+        'password': 'password',
+        'database': 'gitlabhq_production',
+        'host': 'localhost'
+        }
+
+# The user ID assigned to Auto Merger, set to 'None' if unknown.
+MERGER_USER_ID = 1
+
+# The username you used to create account for Auto Merger
+MERGER_USER_NAME = 'auto-merger'
+
+MERGER_WORKING_DIR = '/home/merger/repositories'
+
+GITLAB_SSH = 'git@domain.com'
+
+EMAIL_SENDER = 'automerger@domain.com'
